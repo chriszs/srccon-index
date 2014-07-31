@@ -24,7 +24,7 @@ fs.readdir(basePath, function (err,files) {
 
         var resultArray = [];
 
-        var result = 'SRCCON Index\n============\n\nThis is a quick experiment in automatically generating human-readable indexes for SRCCON transcripts using [term frequency–inverse document frequency](http://en.wikipedia.org/wiki/Tf%E2%80%93idf). Terms are sorted by relevance to a transcript when compared to the frequency with which they occur in all the transcripts. In other words, what was unique to that session? No, it isn\'t perfect.\n\nProblems? Want your name expunged? Create a GitHub issue or email me at chriszs@gmail.com.\n\n';
+        var result = 'SRCCON Index\n============\n\nThis is a quick experiment in automatically generating human-readable indexes for SRCCON transcripts using [term frequency–inverse document frequency](http://en.wikipedia.org/wiki/Tf%E2%80%93idf). Terms are sorted by relevance to a transcript when compared to the frequency with which they occur in all the transcripts. In other words, what was unique to that session?\n\nNo, it isn\'t perfect.\n\nProblems? Want your name expunged? Create a GitHub issue or email me at chriszs@gmail.com.\n\n';
 
         contents.forEach(function (content,i) {
             result += ('\n\n## [' + files[i] + '](https://github.com/OpenNews/srccon-data/blob/master/2014/transcripts/' + files[i] + ')\n\n');
