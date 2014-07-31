@@ -25,7 +25,7 @@ fs.readdir(basePath, function (err,files) {
         var result = 'SRCCON Index\n============\n\nThis is a quick experiment in automatically generating human-readable indexes for SRCCON transcripts using [term frequency–inverse document frequency](http://en.wikipedia.org/wiki/Tf%E2%80%93idf). No, it isn\'t perfect. Problems? Want your name expunged? Create a GitHub issue or email me at chriszs@gmail.com.\n\n';
 
         contents.forEach(function (content,i) {
-            result += ('\n\n ## [' + files[i] + '](https://github.com/OpenNews/srccon-data/blob/master/2014/transcripts/' + files[i] + ')\n\n');
+            result += ('\n\n## [' + files[i] + '](https://github.com/OpenNews/srccon-data/blob/master/2014/transcripts/' + files[i] + ')\n\n');
 
             result += (_.pluck(tfidf.listTerms(i).slice(0,40),'term').join(', '));
         });
