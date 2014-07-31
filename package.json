@@ -1,0 +1,13 @@
+{
+  "name": "srccon-ngrams",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "natural": "~0.1.28",
+    "lodash": "^2.4.1",
+    "queue-async": "^1.0.7"
+  },
+  "author": "",
+  "license": "MIT"
+}
