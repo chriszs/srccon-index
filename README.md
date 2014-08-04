@@ -5,7 +5,7 @@ This is a quick experiment in automatically generating human-readable indexes fo
 
 No, it isn't perfect.
 
-Problems? Want your name expunged? Create a GitHub issue or email me at chriszs@gmail.com.
+Problems? Want your name expunged? Create a GitHub issue.
 
 
 
